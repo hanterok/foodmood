@@ -1,0 +1,11 @@
+
+body{
+    background: url(https://ingoodtaste.com/cdn/shop/articles/Wine-with-pizza_1920x.jpg?v=1663169903)
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin: 48px 820px 602px 383.07px;
+    justify-content: space-between;
+    color: white;
+}
