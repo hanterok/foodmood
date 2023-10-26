@@ -1,6 +1,8 @@
 
-body{
-    background: url(https://ingoodtaste.com/cdn/shop/articles/Wine-with-pizza_1920x.jpg?v=1663169903)
+header{
+    background: url(https://ingoodtaste.com/cdn/shop/articles/Wine-with-pizza_1920x.jpg?v=1663169903);
+    height: 880px;
+    width: 1440px;
 }
 .head{
     display: flex;
