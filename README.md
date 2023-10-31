@@ -1,3 +1,3 @@
 # foodmood
-https://hanterok.github.io/foodmood/
+http://127.0.0.1:5500/
 
