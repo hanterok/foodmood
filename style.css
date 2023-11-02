@@ -1,13 +1,101 @@
-
-header{
-    background: url(https://ingoodtaste.com/cdn/shop/articles/Wine-with-pizza_1920x.jpg?v=1663169903);
-    height: 880px;
-    width: 1440px;
+body {
+    margin: 0 auto;
 }
-.head{
+
+header {
+    margin: 0 auto;
+    background: url("./header-img.png") 100% / cover;
+    width: 1440.067px;
+    height: 889px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.FOODMOOD {
     display: flex;
     flex-direction: row;
-    margin: 48px 820px 602px 383.07px;
-    justify-content: space-between;
-    color: white;
+    width: 455px;
+    height: 21px;
+    flex-shrink: 0;
+    margin: 48px 820px 383.07px 602px;
+    color: #FFF;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.foodmoodtext {
+    color: #ffffff;
+    justify-content: flex-start;
+    margin: 45px 817px 1210.07px 120px;
+}
+
+.ourcategories {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+.partn2 {
+    box-sizing: border-box;
+}
+
+.vector6 {
+    fill: url("./Vector-6.png"), lightgray 0% 0% / 121.57143354415894px 121.57143354415894px repeat;
+    width: 1440px;
+    height: 179px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+.TOPFOODS {
+    color: var(--yeallow-brand-color, #FC0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin: ;
+}
+
+.card {
+    width: 277px;
+    height: 502px;
+    flex-shrink: 0;
+    gap:0 0  0;
+}
+
+.card1 {
+
+    margin-left: 120px;
+    background: url("./Rectangle-4575.png ");
+}
+
+.card2 {
+    background: url("./Rectangle-4575.png ");
+}
+
+.productcards {
+    display: flex;
+    flex-direction: row;
+    width: 1153px;
+    height: 502px;
+    flex-shrink: 0;
+    margin-left: 120px;
+    margin-right: 167px;
+    margin-top: 119px;
+    margin-bottom: 0px;
 }
