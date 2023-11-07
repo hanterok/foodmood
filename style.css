@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     background-image: linear-gradient(to right, rgb(161, 161, 161), rgb(0, 0, 0));
     box-sizing: border-box;
+    height: 10000px;
 }
 
 header {
@@ -13,14 +14,25 @@ header {
     position: relative;
 }
 
-.FOODMOOD {
-    display: flex;
+.FOODMOODt {
     width: 455px;
     height: 21px;
     flex-shrink: 0;
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+}
+
+.div {
+    gap: 44px;
     color: #FFF;
-    font-size: 44px;
-    margin: 48px 44px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
 }
 
 .foodmoodtext {
@@ -69,7 +81,7 @@ header {
     line-height: normal;
     display: flex;
     justify-content: center;
-    margin: ;
+
 }
 
 .card {
@@ -96,4 +108,45 @@ header {
     box-sizing: border-box;
 }
 
-.imgdesine {}
+.imgdesine {
+    width: 277px;
+    height: 502px;
+    flex-shrink: 0;
+    ;
+}
+
+.info1 {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info2 {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info3 {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info4 {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
