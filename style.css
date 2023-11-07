@@ -1,5 +1,7 @@
 body {
     margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(161, 161, 161), rgb(0, 0, 0));
+    box-sizing: border-box;
 }
 
 header {
@@ -13,26 +15,25 @@ header {
 
 .FOODMOOD {
     display: flex;
-    flex-direction: row;
     width: 455px;
     height: 21px;
     flex-shrink: 0;
-    margin: 48px 820px 383.07px 602px;
     color: #FFF;
+    font-size: 44px;
+    margin: 48px 44px;
+}
 
+.foodmoodtext {
+    display: flex;
+    justify-content: flex-start;
+    margin: 45px 817px 1210.07px 120px;
     color: #FFF;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
-}
-
-.foodmoodtext {
-    color: #ffffff;
-    justify-content: flex-start;
-    margin: 45px 817px 1210.07px 120px;
 }
 
 .ourcategories {
@@ -75,18 +76,12 @@ header {
     width: 277px;
     height: 502px;
     flex-shrink: 0;
-    gap:0 0  0;
+    gap: 0 0 30px 0;
+    display: flex;
+    background: #ff0000;
+    margin: 10px;
 }
 
-.card1 {
-
-    margin-left: 120px;
-    background: url("./Rectangle-4575.png ");
-}
-
-.card2 {
-    background: url("./Rectangle-4575.png ");
-}
 
 .productcards {
     display: flex;
@@ -98,4 +93,7 @@ header {
     margin-right: 167px;
     margin-top: 119px;
     margin-bottom: 0px;
+    box-sizing: border-box;
 }
+
+.imgdesine {}
