@@ -551,3 +551,279 @@ card2 .lorem3 {
     flex-shrink: 0;
     background: var(--white-secondery-color, #FFF);
 }
+
+.get-started-today {
+    position: absolute;
+    color: var(#231900);
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 120px;
+    margin-top: 134px;
+}
+
+
+.pizza-delivery {
+    position: absolute;
+    color: var(--yeallow-brand-color, #FC0);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 128px;
+    margin-top: 108px;
+
+
+}
+
+.middle-type-text {
+    position: absolute;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 585px;
+    margin-top: 249px;
+    margin-left: 120px;
+
+
+}
+
+.bottom-mini-text2 {
+    position: absolute;
+    color: #231900;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 585px;
+    margin-left: 120px;
+    margin-top: 343px;
+    height: 78px;
+
+}
+
+.women-face {
+    background: cover no-repeat;
+    width: 585px;
+    height: 585px;
+    flex-shrink: 0;
+    margin-top: 108px;
+    margin-right: 120px;
+    margin-left: 735px;
+
+
+
+
+}
+
+.bottom-box1 {
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+.bottom-box2 {
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.money-img {
+
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 120px;
+
+
+}
+
+.loyalty-img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 412px;
+
+
+}
+
+.food-order {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.info-food-order {
+    box-sizing: border-box;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 277px;
+    flex-shrink: 0;
+    margin-left: 120px;
+    margin-bottom: 94px;
+    position: relative;
+}
+
+.promote {
+    position: relative;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+    margin-left: 427px;
+
+}
+
+.promote-info {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 277px;
+    height: 71px;
+    flex-shrink: 0;
+    margin-left: 427px;
+    margin-bottom: 94px;
+}
+
+.members {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 800px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.team-members {
+    position: absolute;
+    color: var(--yeallow-brand-color, #FC0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 654px;
+    margin-top: 47px;
+}
+
+.meet-our-team {
+    box-sizing: border-box;
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 439px;
+    padding-top: 77px;
+
+}
+
+.cooking-women1 {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cooking-women2 {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cooking-men1 {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cooking-men2 {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.members-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-women2 {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+}
+
+.name-men2 {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+}
+
+.name-women1 {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+}
+
+.name-men1 {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 277px;
+}
+
+.clasification-women-1 {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 161.701px;
+}
