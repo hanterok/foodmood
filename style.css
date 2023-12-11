@@ -168,41 +168,75 @@ header {
     line-height: normal;
 }
 
-.vector6 {
+.header-part {
     width: 806px;
     height: 544px;
     flex-shrink: 0;
-    margin: 149px 323px 514.07px 120px;
-    box-sizing: border-box;
 
+}
+
+.info1 {
+
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding-left: 104px;
+    padding-top: 382px;
 }
 
 .info2 {
-    color: rgb(0, 0, 0);
+    color: var(--black-font-color, #231900);
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    padding-left: 104px;
+    padding-top: 382px;
 }
 
 .info3 {
-    color: rgb(0, 0, 0);
+    position: absolute;
+    padding-left: 104px;
+    color: var(--black-font-color, #231900);
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 382px;
 }
 
-infik .info4 {
-    color: rgb(0, 0, 0);
+.info4 {
+    position: absolute;
+    padding-left: 104px;
+    color: var(--black-font-color, #231900);
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 382px;
 }
+
+.restaurant-foods {
+    position: absolute;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 432px;
+    padding-left: 28px;
+}
+
+
 
 .discount {
     color: #FFF;
@@ -211,9 +245,25 @@ infik .info4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 120px;
+    margin-top: 77px;
+}
+
+.discount-2 {
+    position: relative;
+    color: var(--white-secondery-color, #FFF);
+    font-family: Poppins;
+    font-size: 31.948px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 181.039px;
+    padding-left: 22.63px;
+    padding-top: 102.5px;
 }
 
 .AUTHENTIC-PIZZA {
+    position: absolute;
     display: flex;
     box-sizing: border-box;
     color: #FFF;
@@ -222,9 +272,11 @@ infik .info4 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-left: 120px;
+    margin-top: 25px;
 }
 
-.infik {
+.information {
     position: absolute;
     color: #FFF;
     font-family: Poppins;
@@ -232,11 +284,18 @@ infik .info4 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-left: 354px;
+    margin-top: 26px;
+    height: 231px;
+    width: 324px;
+    margin-left: 354px;
+    margin-top: 147px;
+
+
 
 }
 
 .procent {
+    position: absolute;
     color: var(--white-secondery-color, #FFF);
     font-family: Poppins;
     font-size: 63.896px;
@@ -248,18 +307,10 @@ infik .info4 {
 
 }
 
-.discounttext {
-    color: var(--white-secondery-color, #FFF);
-    font-family: Poppins;
-    font-size: 31.948px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 0 0 0 20px;
 
-}
 
 .circle {
+    position: sticky;
     width: 205px;
     height: 205px;
     flex-shrink: 0;
@@ -268,20 +319,27 @@ infik .info4 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-left: 120px;
+    margin-top: 157px;
+
 }
 
-.ORDERONLINE {
+.ORDER-ONLINE {
+    background: var(--yeallow-brand-color, #FC0);
+    width: 209px;
+    height: 48px;
+    flex-shrink: 0;
     box-sizing: border-box;
     height: 48px;
     width: 209px;
-    padding-top: 105px;
-    background: var(--yeallow-brand-color, #FC0);
-    color: #FFF;
+    color: var(--white-secondery-color, #FFF);
     font-family: Poppins;
-    font-size: 26px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 120px;
+    margin-top: 92px;
 }
 
 .bottompart {
@@ -487,6 +545,7 @@ card2 .lorem3 {
     font-weight: 700;
     line-height: normal;
     width: 388px;
+    padding-top: 33px;
 }
 
 .bottom-text-off-h2 {
@@ -498,6 +557,7 @@ card2 .lorem3 {
     font-weight: 700;
     line-height: normal;
     width: 388px;
+    padding-top: 33px;
 }
 
 .bottom-text-off-h3 {
@@ -509,10 +569,11 @@ card2 .lorem3 {
     font-weight: 700;
     line-height: normal;
     width: 388px;
+    padding-top: 33px;
 }
 
 .arrow1 {
-    box-sizing: border-box;
+    position: relative;
     width: 20.427px;
     height: 32.875px;
     flex-shrink: 0;
@@ -524,8 +585,8 @@ card2 .lorem3 {
 }
 
 .arrow2 {
+    position: relative;
     padding-top: 20px;
-    box-sizing: border-box;
     width: 20.427px;
     height: 32.875px;
     flex-shrink: 0;
@@ -535,8 +596,8 @@ card2 .lorem3 {
 }
 
 .arrow3 {
+    position: relative;
     padding-left: 180px;
-    box-sizing: border-box;
     width: 20.427px;
     height: 32.875px;
     flex-shrink: 0;
@@ -826,4 +887,173 @@ card2 .lorem3 {
     font-weight: 400;
     line-height: normal;
     width: 161.701px;
+}
+
+.discount-chapter2 {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 734px;
+    flex-shrink: 0;
+    background: linear-gradient(91deg, #FC0 17.25%, rgba(255, 204, 0, 0.00) 178.38%);
+}
+
+.discount-on-firstorder {
+    position: absolute;
+    color: var(--white-secondery-color, #FFF);
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 584px;
+    margin-left: 121px;
+    padding-top: 201px;
+}
+
+.onderwtiting-discount {
+    position: absolute;
+    color: var(--white-secondery-color, #FFF);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 584px;
+    padding-left: 121px;
+    padding-top: 316px;
+}
+
+.mobile-img {
+    padding-left: 735px;
+    padding-top: 65px;
+}
+
+.app-img1 {
+    position: absolute;
+    border-radius: 10px;
+    background: contain no-repeat;
+    width: 176px;
+    height: 55px;
+    flex-shrink: 0;
+    padding-left: 121px;
+    padding-bottom: 212px;
+
+}
+
+.app-img2 {
+    position: absolute;
+    width: 176px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: contain no-repeat;
+    padding-left: 309px;
+    padding-bottom: 212px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 350px;
+    flex-shrink: 0;
+    padding-top: 75px;
+    padding-left: 120px;
+
+}
+
+.company-n-1 {
+    width: 277px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.foodmood-ending {
+    position: absolute;
+    margin-left: 120px;
+    color: var(--yeallow-brand-color, #FC0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 175px;
+    background: purple
+}
+
+.foodmood-ending-info {
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 47px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 380px;
+    background: purple;
+}
+
+.ending-info {
+    display: flex;
+    width: 1199px;
+    height: 203.41px;
+
+}
+
+.about-us {
+    position: absolute;
+    list-style: none;
+    margin-left: 530px;
+    background: blue;
+}
+
+.our-menu-text-ending , .about-us-text-ending {
+    padding-bottom: 47px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 175px;
+}
+
+.li {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 137.083px;
+}
+
+.our-location-ending {
+    list-style: none;
+    margin-left: 256px;
+    position: absolute;
+    width: 278px;
+    height: 226px;
+    flex-shrink: 0;
+}
+.our-location-text-ending {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    width: 278px;
+    line-height: normal;
+
+}
+.our-menu {
+    list-style: none;
+    position: absolute;
+    margin-left: 200px;
+    width: 175px;
+    height: 226px;
+    flex-shrink: 0;
+    background: red;
 }
