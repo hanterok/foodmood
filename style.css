@@ -802,6 +802,7 @@ card2 .lorem3 {
 
 }
 
+
 .cooking-women1 {
     width: 277px;
     height: 350px;
@@ -953,7 +954,7 @@ card2 .lorem3 {
 
 .company {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 1440px;
     height: 350px;
     flex-shrink: 0;
@@ -962,13 +963,15 @@ card2 .lorem3 {
 
 }
 
-.company-n-1 {
-    width: 277px;
+.company-logo {
+    margin-right: 30px;
+    width: 278px;
     height: 200px;
     flex-shrink: 0;
 }
 
 .foodmood-ending {
+
     position: absolute;
     margin-left: 120px;
     color: var(--yeallow-brand-color, #FC0);
@@ -978,13 +981,12 @@ card2 .lorem3 {
     font-weight: 600;
     line-height: normal;
     width: 175px;
-    background: purple
+
 }
 
 .foodmood-ending-info {
     margin-left: 120px;
-    position: absolute;
-    margin-top: 47px;
+    margin-top: 83px;
     color: var(--black-font-color, #231900);
     font-family: Poppins;
     font-size: 17px;
@@ -992,24 +994,31 @@ card2 .lorem3 {
     font-weight: 400;
     line-height: normal;
     width: 380px;
-    background: purple;
+
 }
 
-.ending-info {
+.footer {
+
     display: flex;
-    width: 1199px;
-    height: 203.41px;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 586px;
+    flex-shrink: 0;
+    background: var(--white-secondery-color, #FFF);
 
 }
 
 .about-us {
-    position: absolute;
-    list-style: none;
-    margin-left: 530px;
-    background: blue;
+    width: 175px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.our-menu-text-ending , .about-us-text-ending {
+.our-menu {
     padding-bottom: 47px;
     color: var(--black-font-color, #231900);
     font-family: Poppins;
@@ -1018,42 +1027,116 @@ card2 .lorem3 {
     font-weight: 600;
     line-height: normal;
     width: 175px;
+
 }
 
-.li {
+.our-location {
+    width: 278px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first-word {
+    padding-bottom: 47px;
+}
+
+.column {
+    list-style: none;
+
+}
+
+.small {
+    margin-left: 82px;
+    width: 115.208px;
     color: var(--black-font-color, #231900);
     font-family: Poppins;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 137.083px;
 }
 
-.our-location-ending {
-    list-style: none;
-    margin-left: 256px;
-    position: absolute;
-    width: 278px;
-    height: 226px;
-    flex-shrink: 0;
-}
-.our-location-text-ending {
+.middle {
+
+    margin-left: 30px;
+    width: 170.625px;
     color: var(--black-font-color, #231900);
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 17px;
     font-style: normal;
-    font-weight: 600;
-    width: 278px;
+    font-weight: 400;
     line-height: normal;
+}
+
+.large {
+    margin-left: 81px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 257px;
+}
+
+li {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 13px;
+}
+
+.bird {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-2.688deg);
+    flex-shrink: 0;
+    margin-left: 120px;
+}
+
+.facebook {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-2.688deg);
+    flex-shrink: 0;
+    margin-left: 201px;
 
 }
-.our-menu {
-    list-style: none;
+
+.instagram {
     position: absolute;
-    margin-left: 200px;
-    width: 175px;
-    height: 226px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-2.688deg);
     flex-shrink: 0;
-    background: red;
+    margin-left: 279px;
+}
+
+.mesenger {
+    margin-top: 208px;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.copy-right {
+
+    width: 100%;
+    margin-top: 187px;
+    margin-left: 113px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
